@@ -68,6 +68,10 @@ a {
 
 /** styling for information-section**/
 
+.information-section {
+    margin-bottom: 80px;
+}
+
 .information-section h1 {
     text-align: center;
     font-size: 36px;
@@ -95,3 +99,33 @@ a {
     text-align: center;
     font-size: 15px;
 }
+
+/** styling for inspirational-quote **/
+
+.inspirational-quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.inspirational-quote .quote { 
+    font-size: 24px;
+    font-style: italic; 
+    color: #1F2937;    
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+
+
+.inspirational-quote p:last-child { 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #1F2937; 
+    align-self: flex-end; 
+    margin-right: 50px; 
+}
+
+/** Styling for Call to Action Section **/
