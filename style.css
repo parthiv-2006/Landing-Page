@@ -171,3 +171,19 @@ a {
     background-color: transparent;
     padding: 5px 20px;
 }
+
+/** styling for footer **/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer p {
+    color: white;
+    font-size: 12px;
+}
