@@ -4,6 +4,8 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
+/** header styling**/
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -18,7 +20,7 @@ h3 {
 
 .nav-links {
     display: flex;
-    gap: 12px;
+    gap: 14px;
     list-style-type: none;
 }
 
@@ -26,4 +28,40 @@ a {
     text-decoration: none;
     color: white;
     font-size: 12px;
+}
+
+/** hero-section styling**/
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    padding-bottom:90px ;
+    margin: 0;
+}
+
+.text-and-button h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.text-and-button p {
+    color: white;
+    font-size: 12px;
+}
+
+.text-and-button button {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 25px; /** Top and bottom, left and right**/
+    border-radius: 8px;
+    border: none;
+}
+
+.image img {
+    width: 350px;
+    height: auto;
 }
